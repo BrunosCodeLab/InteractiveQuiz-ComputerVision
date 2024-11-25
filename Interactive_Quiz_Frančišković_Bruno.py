@@ -1,3 +1,4 @@
+# This project was made by Bruno Frančišković
 # pip install -r requirements.txt
 
 import cv2
