@@ -2,7 +2,7 @@
 
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/BrunosCodeLab/Images/refs/heads/main/Interactive%20Quiz.png" alt="Banner" width="1080" />
+    <img src="https://raw.githubusercontent.com/BrunosCodeLab/Images/refs/heads/main/InteractiveQuiz-CV/Interactive%20Quiz.png" alt="Banner" width="1080" />
 </div>
 
 ## How It Works
@@ -14,23 +14,25 @@ This interactive quiz is implemented using Python and several libraries, includi
 
 After initializing the hand detector (`HandDetector`), the program loads questions and answers from the `QnA.csv` file, creating objects for each question and answer. The questions are shuffled, and the first five are selected and stored in the `selectedQuestions` list.
 
+##
+
 ### Main Program Flow
 
 1. **Frame Processing**  
    Each webcam frame is captured and processed. The program detects the hand using `detector.findHands(img)` and identifies finger orientations to select an answer for the current question.
 <br><br>
 <div align="center">
-    <img src="https://github.com/BrunosCodeLab/Images/blob/main/Hand.png" alt="Hand" width="1080" />
+    <img src="https://raw.githubusercontent.com/BrunosCodeLab/Images/refs/heads/main/InteractiveQuiz-CV/Hand.png" alt="Hand" width="1080" />
 </div>
 <br><br>
 
-   The finger orientation is stored in the `selection` variable, where:
+2. The **finger orientation is stored** in the `selection` variable, where:
    - One raised finger corresponds to `1`,
    - Two raised fingers correspond to `2`,
    - And so on.
 <br><br>
 <div align="center">
-    <img src="https://github.com/BrunosCodeLab/Images/blob/main/Hands_Numbers.png" alt="Hands_Numbers" width="1080" />
+    <img src="https://github.com/BrunosCodeLab/Images/blob/main/InteractiveQuiz-CV/Hands_Numbers.png" alt="Hands_Numbers" width="1080" />
 </div>
 <br><br>
 
@@ -39,7 +41,7 @@ Example:
 
 <br>
 <div align="center">
-    <img src="https://raw.githubusercontent.com/BrunosCodeLab/Images/refs/heads/main/QnA_logic.png" alt="QnA_Logic" width="1080" />
+    <img src="https://raw.githubusercontent.com/BrunosCodeLab/Images/refs/heads/main/InteractiveQuiz-CV/QnA_logic.png" alt="QnA_Logic" width="1080" />
 </div>
 <br>
 
