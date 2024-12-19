@@ -1,9 +1,9 @@
 # Interactive Quiz - Computer Vision ![Project Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FBrunosCodeLab%2FInteractiveQuiz-ComputerVision&count_bg=%235C9CFF&title_bg=%23008FC9&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)
 
-
 <div align="center">
-    <img src="https://raw.githubusercontent.com/BrunosCodeLab/Images/refs/heads/main/InteractiveQuiz-CV/Interactive%20Quiz.png" alt="Banner" width="1080" />
-</div>
+    <img src="https://github.com/BrunosCodeLab/Images/blob/main/InteractiveQuiz-CV/Interactive%20Quiz%20GIF.gif" alt="Banner" width="800" />
+</div> 
+
 
 ## How It Works
 
@@ -14,6 +14,7 @@ This interactive quiz is implemented using Python and several libraries, includi
 
 After initializing the hand detector (`HandDetector`), the program loads questions and answers from the `QnA.csv` file, creating objects for each question and answer. The questions are shuffled, and the first five are selected and stored in the `selectedQuestions` list.
 
+
 ##
 
 ### Main Program Flow
@@ -22,7 +23,7 @@ After initializing the hand detector (`HandDetector`), the program loads questio
    Each webcam frame is captured and processed. The program detects the hand using `detector.findHands(img)` and identifies finger orientations to select an answer for the current question.
 <br><br>
 <div align="center">
-    <img src="https://raw.githubusercontent.com/BrunosCodeLab/Images/refs/heads/main/InteractiveQuiz-CV/Hand.png" alt="Hand" width="1080" />
+    <img src="https://raw.githubusercontent.com/BrunosCodeLab/Images/refs/heads/main/InteractiveQuiz-CV/Hand.png" alt="Hand" width="800" />
 </div>
 <br><br>
 
@@ -32,7 +33,7 @@ After initializing the hand detector (`HandDetector`), the program loads questio
    - And so on.
 <br><br>
 <div align="center">
-    <img src="https://github.com/BrunosCodeLab/Images/blob/main/InteractiveQuiz-CV/Hands_Numbers.png" alt="Hands_Numbers" width="1080" />
+    <img src="https://github.com/BrunosCodeLab/Images/blob/main/InteractiveQuiz-CV/Hands_Numbers.png" alt="Hands_Numbers" width="800" />
 </div>
 <br><br>
 
@@ -41,7 +42,7 @@ Example:
 
 <br>
 <div align="center">
-    <img src="https://raw.githubusercontent.com/BrunosCodeLab/Images/refs/heads/main/InteractiveQuiz-CV/QnA_logic.png" alt="QnA_Logic" width="1080" />
+    <img src="https://raw.githubusercontent.com/BrunosCodeLab/Images/refs/heads/main/InteractiveQuiz-CV/QnA_logic.png" alt="QnA_Logic" width="800" />
 </div>
 <br>
 
@@ -61,12 +62,5 @@ Example:
    - Correct answers
    - Selected answers
    - Corresponding questions  
-
-   The final score is calculated as a percentage using the formula:  
-
-
-### A video demonstration of this project in action will be uploaded soon.
-
-
 
 ****
